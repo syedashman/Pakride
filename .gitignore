@@ -7,6 +7,19 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+!.env.*.example
+
+# Credential/config artifacts
+*.pem
+*.key
+*.p12
+*.p8
+*.crt
+*.csr
+*.keystore
+*.jks
+*.log
+logs/
 
 # Dependency folders and package installs
 node_modules/
@@ -16,6 +29,8 @@ node_modules/
 __pycache__/
 *.py[cod]
 *.pyo
+.venv/
+venv/
 
 # Logs and caches
 *.log
@@ -26,7 +41,14 @@ web-build/
 dist/
 build/
 .cache/
+coverage/
 
 # Optional package artifacts
 *.sqlite
 *.db
+*.dump
+*.sql.gz
+
+# Local generated artifacts
+.DS_Store
+Thumbs.db
