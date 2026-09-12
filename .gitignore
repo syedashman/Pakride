@@ -1,0 +1,32 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependency folders and package installs
+node_modules/
+**/node_modules/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs and caches
+*.log
+.Dexpo/
+.expo/
+.expo-shared/
+web-build/
+dist/
+build/
+.cache/
+
+# Optional package artifacts
+*.sqlite
+*.db
